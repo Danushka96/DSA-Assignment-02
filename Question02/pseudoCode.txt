@@ -1,0 +1,64 @@
+#Implementation Of Queue
+    #Function check is_Empty(true/False)
+    return self.item=[]
+
+    #Function Enqueue
+    self.items.append(item)
+
+    #Function Dequeue
+    self.item.pop(0)
+
+    #Function Size
+    return length(self.items)
+
+#implemet of the Linked List
+|
+|
+|
+|
+|
+|
+
+Create a Class "Car"
+    Function variables
+        self.LP=item
+        self.count=0
+
+Function Arrive(car)
+    if numberofcars<10 AND waitingline=0
+        move car to garadge
+
+    elseif numberofcars<10 AND waitingline not =0
+        get fist car from waiting list and move to garadge
+
+    else(numberofcars>=10)
+        move the car to waiting List
+
+Function Derive(car)
+    steps=0
+    while steps==number of cars in garadge
+        x=dequeue each car
+        if not x.numberplate=car.numberplate
+            enqueue car to end of the car park
+            car.count +=1
+
+        else
+            if waiting list size not = 0
+                y=get fist car from waiting list
+                move y to garadge
+            car count = count+1
+
+        steps=steps+1
+
+f Variable for Open input.txt from the folder
+line for read each line from f
+while line is present
+    data list for separting values from line
+    scar for car(data[1])
+    if data[0] = 'a'
+        then call arrive function with scar
+        print that car has arrived
+    else if data[0] = 'd'
+        then call derive function with scar
+        print that car has derived
+    read next line
